@@ -1,0 +1,2 @@
+- GCC compiler supporting C++17
+- CMake >= 3.5

@@ -1,0 +1,118 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Fri Apr  5 08:26:06 2024
+[*]
+[dumpfile] "/home/rafa/eclipse-workspace/pim-cores/waveforms/pch_softsimd_wave.vcd"
+[dumpfile_mtime] "Fri Apr  5 08:25:18 2024"
+[dumpfile_size] 118296
+[savefile] "/home/rafa/eclipse-workspace/pim-cores/waveforms/pch_softsimd_tb.gtkw"
+[timestart] 3873450
+[size] 1684 1246
+[pos] -1 -1
+*-13.761684 3895180 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 233
+[signals_width] 393
+[sst_expanded] 1
+[sst_vpaned_height] 884
+@28
+SystemC.rst
+SystemC.clk
+SystemC.RD
+SystemC.WR
+SystemC.ACT
+SystemC.AB_mode
+SystemC.pim_mode
+@24
+SystemC.bank_addr[1:0]
+SystemC.row_addr[13:0]
+SystemC.col_addr[4:0]
+@22
+SystemC.DQ[63:0]
+@24
+SystemC.PC[31:0]
+@22
+SystemC.macroinstr[63:0]
+@24
+SystemC.itt_idx[31:0]
+SystemC.dlbm_index[31:0]
+SystemC.mov_instr[15:0]
+@22
+SystemC.mov_fields[31:0]
+@24
+SystemC.dlbsa_index[31:0]
+SystemC.sa_instr[15:0]
+@22
+SystemC.sa_fields[31:0]
+@24
+SystemC.dlbpm_index[31:0]
+SystemC.pm_instr[15:0]
+@22
+SystemC.pm_fields[31:0]
+SystemC.dram_bus[255:0]
+@200
+-Multiplication sequencer
+@28
+SystemC.ms_enable
+@22
+SystemC.ms_csd_in[63:0]
+@24
+SystemC.ms_csd_len[7:0]
+@28
+SystemC.ms_mov_valid
+SystemC.ms_sa_valid
+@24
+SystemC.ms_sa_index[31:0]
+@200
+-VWRs
+@22
+SystemC.VWR0[255:0]
+SystemC.VWR1[255:0]
+SystemC.VWR2[255:0]
+SystemC.VWR3[255:0]
+@200
+-Registers
+@22
+SystemC.R0[63:0]
+SystemC.R1[63:0]
+SystemC.R2[63:0]
+SystemC.R3[63:0]
+@200
+-Shift&Add
+@22
+SystemC.sa_op1[63:0]
+SystemC.sa_op2[63:0]
+@28
+SystemC.sa_adder_en
+@29
+SystemC.sa_neg_op1
+SystemC.sa_neg_op2
+@24
+SystemC.sa_shift[31:0]
+SystemC.sa_size[31:0]
+@22
+SystemC.sa_out[63:0]
+@200
+-Pack&Mask
+@22
+SystemC.pm_w1[63:0]
+SystemC.pm_w2[63:0]
+@24
+SystemC.pm_shift[31:0]
+SystemC.pm_in_size[31:0]
+SystemC.pm_out_size[31:0]
+SystemC.pm_in_start[31:0]
+@22
+SystemC.pm_out[63:0]
+@200
+-Tile shuffler
+@28
+SystemC.ts_in_en
+@24
+SystemC.ts_mode[31:0]
+SystemC.ts_out_start[31:0]
+@28
+SystemC.ts_out_en
+@22
+SystemC.ts_reg[255:0]
+[pattern_trace] 1
+[pattern_trace] 0
