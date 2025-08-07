@@ -15,7 +15,7 @@
 
 #define MIXED_SIM   0   // 0 if SystemC-only simulation, 1 if mixed SystemC + RTL
 #define RECORDING   0   // 1 if recording control signals and VWR inout for detailed layout simulation
-#define EN_MODEL    1   // 1 if generating a report for the energy model
+#define EN_MODEL    0   // 1 if generating a report for the energy model
 #define VCD_TRACE   1   // 1 if generating VCD traces
 #define DEBUG       0   // 1 if using assert library and other debug features
 
